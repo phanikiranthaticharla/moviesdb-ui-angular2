@@ -26,3 +26,7 @@ The backend application is written using SpringBoot and MongoDB.
 * `ng serve`
 * From a web browser, go to the homepage of the application at `http://localhost:4200/`
 * Now in order for the search feature to work correctly, make sure the backend microservice is running on port 8080. For more details about the backend microservice, check the repo [here](https://github.com/phanikiranthaticharla/MoviesDB-SpringBoot-MongoDB).
+
+### Current UI looks like 
+
+![movies_db](https://user-images.githubusercontent.com/8190677/128803981-5ef6ffab-c04d-4b7a-b937-81e6a092f669.png)
