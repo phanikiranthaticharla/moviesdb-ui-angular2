@@ -17,7 +17,7 @@
     <h2 class="th-class">List of movies released in 2021</h2>
   </div>
 
-  <div class="generic-container">
+  <div id="movies">
     <div class="panel panel-default">
       <!-- Default panel contents -->
       <div class="tablecontainer">
@@ -26,8 +26,11 @@
 
           </thead>
           <tbody>
+            <!--TODO: Repeat this only for top 5 elements -->
             <tr class="customlist" *ngFor="let movie of movies">
-              <td><span> * {{movie.movieName}}</span></td>
+              <td><span> {{movie.movieName}}</span></td>
+              <td><span> {{movie.language}}</span></td>
+              <td><span> {{movie.movieDescription}}</span></td>
             </tr>
           </tbody>
         </table>
@@ -37,7 +40,7 @@
 
     </div>
     <div>
-      <p>Search for a movie to get more details!</p>
+      <p><b>Search for a movie by name, description, language or actors</b></p>
       Enter a movie name : <input type="text" [(ngModel)]="query" /><br /><br />
       <button (click)="movie()">
         Search
@@ -47,9 +50,9 @@
         <p><b>Description</b> : {{ movie.movieDescription }} </p>
         <p><b>Director</b> : {{ movie.movieDirector }} </p>
         <p><b>Language</b> : {{ movie.language }} </p>
-        <p><b>Actors: </b> 
+        <p><b>Actors: </b>
           <td *ngFor="let actor of movie.actors;last as isLast">{{ actor }}
-            <span *ngIf="!isLast">,</span>
+            <span *ngIf="!isLast"></span>
           </td>
         </p>
       </div>

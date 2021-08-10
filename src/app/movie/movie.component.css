@@ -30,7 +30,7 @@
     color: white;
   }
 
-  .panel {
+  .panel1 {
     background-color: lightblue;
   }
 
@@ -38,3 +38,16 @@
     leftpadding: 70px;
     
   }
+
+  #movies {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #movies td, #movies th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #customers tr:hover {background-color: #ddd;}
