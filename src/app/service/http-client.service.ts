@@ -8,6 +8,7 @@ export class Movie {
     public movieDescription: string,
     public movieDirector: string,
     public language: string,
+    public releaseDate: string,
     public actors:string[]
   ) {
   }
