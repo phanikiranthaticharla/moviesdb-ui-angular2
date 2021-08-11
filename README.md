@@ -5,7 +5,7 @@ This repository is the UI for the backend MoviesDB application located [here](ht
 The backend application is written using SpringBoot and MongoDB. 
 Current UI looks like below with basic features such as listing movies and searching a movie based on movie name, actor, description or language
 
-![movies_db](https://user-images.githubusercontent.com/8190677/128803981-5ef6ffab-c04d-4b7a-b937-81e6a092f669.png)
+![movies_db_new](https://user-images.githubusercontent.com/8190677/128954429-c6f66ca4-8ddf-48a1-8a30-9f29ad5195b0.png)
 
 
 ### Prerequisites
