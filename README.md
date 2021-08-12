@@ -1,4 +1,4 @@
-# moviesdb-ui-angular2
+# moviesdb-ui-angular
 
 This repository is the UI for the backend MoviesDB application located [here](https://github.com/phanikiranthaticharla/MoviesDB-SpringBoot-MongoDB). 
 
@@ -14,7 +14,7 @@ Current UI looks like below with basic features such as listing movies and searc
 
 ### Features 
 
-* The UI is written using Angular2. 
+* The UI is written using Angular. 
 * This is a microservice application that talks to another backend microservice application to obtain the data. 
 * User can search for a movie by any search string and any matching movie with the details such as description, director name etc are displayed. 
 * The application can be hosted locally on default angular port 4200 `http://localhost:4200` 
@@ -23,6 +23,9 @@ Current UI looks like below with basic features such as listing movies and searc
 
 ### Steps 
 
+* Check if npm and nodejs are installed by running: 
+* `node -v`
+* `npm -v`
 * After cloning the repo, from the project root directory, run: 
 * `npm install` 
 * If the installation is successful, additional directory called node_modules will be created. 
